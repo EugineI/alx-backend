@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+""" LFU Cache"""
 from base_caching import BaseCaching
 from collections import defaultdict
 

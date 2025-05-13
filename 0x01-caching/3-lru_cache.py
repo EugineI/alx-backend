@@ -1,13 +1,13 @@
-#!/usr/bin/python3
-"""lru cache"""
+#!/usr/bin/env python3
+""" lru cache"""
 from base_caching import BaseCaching
 
 
 class LRUCache(BaseCaching):
-    """LRU Cache system"""
+    """ LRU Cache system"""
 
     def __init__(self):
-        """Initialize the LRU Cache"""
+        """ Initialize the LRU Cache"""
         super().__init__()
         self.order = []
 
